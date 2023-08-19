@@ -1,2 +1,2 @@
 # IF-ELSE
-Exercícios de introdução a estruturas condicionais (JavaScript
+Exercícios de introdução a estruturas condicionais (JavaScript)
