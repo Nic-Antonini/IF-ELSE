@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+body::before{
+    background: #68a000;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 290px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+body{
+    background-color: rgb(238, 252, 215);
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    margin-top: 150px ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 950px;
+    min-height: 400px;
+    background-color: rgb(244, 244, 244);
+    padding-top: 60px;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 200;
+}
+
+fieldset{
+    padding-top: 10px;
+    width: 720px;
+    margin-bottom: 50px;
+}
+legend{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p{
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 130px;
+    height: 26px;
+    border: none;
+    background-color: #7ec200;
+    transition: 0.5s;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #619500;
+    transition: 0.5s;
+}
+
+a{
+    color:#71ae01;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+a span{
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+a:hover{
+    color:#619500;
+}
+
+img{
+    width: 15px;
+    height: 15px;
+}
