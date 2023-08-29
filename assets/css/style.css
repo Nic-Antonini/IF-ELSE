@@ -77,11 +77,12 @@ p{
     transition: 0.5s;
 }
 
-a{
+ a{
     color:#71ae01;
     text-decoration: none;
     text-align: center;
     margin-bottom: 40px;
+    margin-left: 10px;
 }
 
 a span{
@@ -97,3 +98,8 @@ img{
     width: 15px;
     height: 15px;
 }
+
+.links{
+    display: flex;
+}
+
