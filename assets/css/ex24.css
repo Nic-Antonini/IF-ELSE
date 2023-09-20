@@ -10,16 +10,16 @@ body, button, input, textarea, select{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #c60091;
+    background-color: #434343;
 }
 
 body::before{
-    background: rgb(69,0,50);
-    background: linear-gradient(180deg, rgba(69,0,50,1) 41%, rgba(97,0,71,1) 60%, rgba(198,0,145,1) 100%);
+    background: rgb(18,18,20);
+    background: linear-gradient(180deg, rgba(18,18,20,1) 47%, rgba(67,67,67,1) 100%);
     content: "";
     position: absolute;
     width: 100%;
-    height: 500px;
+    height: 368px;
     left: 0;
     top: 0;
     z-index: -1;
@@ -30,10 +30,30 @@ body::before{
     margin: auto;
 }
 
+header{
+    width: 400px;
+    margin-top: 70px;
+}
+
+header h1{
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+header p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#ffb700;
+}
+
 form{
     background-color: #fafafa;
-    min-height: 10px;
-    margin-top: 100px;
+    min-height: 500px;
+    margin-top: 38px;
     border-start-end-radius: 8px;
     border-start-start-radius:8px ;
     padding: 64px;
@@ -63,7 +83,7 @@ fieldset legend{
 }
 
 .input-wrapper label{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     color: #4E4958;
     margin-bottom: 8px;
@@ -169,7 +189,7 @@ footer .button{
     width: 650px;
     height: 60px;
     border: none;
-    background-color: #c60091;
+    background-color: #ffa600;
     font-family: 'Archivo', sans-serif;
     font-weight: bold;
     color: white;
@@ -181,18 +201,29 @@ footer .button{
 }
 
 footer .button:hover{
-    background-color: #82005f;
+    background-color: #d78c00;
     color: white;
     transition: 0.5s;
 }
 
+footer a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffa600;
+}
+
+footer a:hover{
+    text-decoration-line: underline;
+}
+
 .links{
     display: flex;
-    
 }
 
 img{
     width: 15px;
     height: 15px;
-    margin-right: 10px;
+    margin-left: 10px;
 }

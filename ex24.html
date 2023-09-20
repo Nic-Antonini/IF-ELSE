@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 24 - JavaScript</title>
+
+    <link rel="stylesheet" href="assets/css/ex24.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap" rel="stylesheet">
+    <script src="assets/js/ex24.js"></script>
+</head>
+<body>
+
+    <div class="page">
+
+        <header>
+
+            <h1>AGENDE UMA DIÁRIA EM NOSSO HOTEL</h1>
+            <p>Para isso, preencha este
+                 pequeno formulário.</p>
+
+        </header>
+
+        <form id="form">
+
+            <fieldset>
+
+                <legend>DADOS DA DIÁRIA</legend>
+
+                <div class="input-wrapper">
+
+                    <label for="name">
+                         Nome do Hóspede
+                         <span>(Nome Completo)</span>
+                    </label>
+
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="days">Quantidade de dias</label>
+                    <input type="number" min="1" id="days" name="days" required>
+
+                </div>
+
+                <div class="input-wrapper">
+
+                    <label for="type">Tipo de apartamento</label>
+                    <select id="type" name="type" required>
+                        <option value="" data-default disabled selected></option>
+                        <option value="Simples">Simples</option>
+                        <option value="Médio">Médio</option>
+                        <option value="Luxo">Luxo</option>
+                    </select>
+
+                </div>
+
+            </fieldset>
+
+        </form>
+
+        <footer>
+
+            <input
+            type="submit"
+            class="button"
+            value="Calcular valor da diária"
+            form="form"
+            onclick="calculaDiaria(form)">
+            <br>
+            <div class="links">
+                <a href="ex23.html"><img src="assets/img/left.svg" alt=""></a><a href="index.html"><img src="assets/img/back.svg" alt=""></a>
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>

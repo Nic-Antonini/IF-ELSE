@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,42 +13,23 @@
 
     <div class="page">
 
-        <header>
 
-            <h1>AGENDE UMA DIÁRIA EM NOSSO HOTEL</h1>
-            <p>Para isso, preencha este
-                 pequeno formulário.</p>
-
-        </header>
 
         <form id="form">
 
             <fieldset>
 
-                <legend>DADOS DA DIÁRIA</legend>
+                <legend>Escolha um elemento</legend>
 
+           
                 <div class="input-wrapper">
 
-                    <label for="name">
-                         Nome do Hóspede
-                         <span>(Nome Completo)</span>
-                    </label>
-
-                    <input type="text" id="name" name="name" required>
-
-                    <label for="days">Quantidade de dias</label>
-                    <input type="number" min="1" id="days" name="days" required>
-
-                </div>
-
-                <div class="input-wrapper">
-
-                    <label for="type">Tipo de apartamento</label>
-                    <select id="type" name="type" required>
+                    <label for="elementos">Elementos</label>
+                    <select id="elementos" name="elementos" required>
                         <option value="" data-default disabled selected></option>
-                        <option value="Simples">Simples</option>
-                        <option value="Médio">Médio</option>
-                        <option value="Luxo">Luxo</option>
+                        <option value="São Paulo">SP</option>
+                        <option value="Rio de Janeiro">RJ</option>
+                        <option value="Paraná">PR</option>
                     </select>
 
                 </div>
@@ -64,12 +45,11 @@
             class="button"
             value="Calcular valor da diária"
             form="form"
-            onclick="calculaDiaria(form)">
+            onclick="mostraElemento(form)">
             <br>
-            <div>
-            <a href="ex21.html">ex. 21</a> | <a href="ex22.html">ex. 22</a>
-            </div>
-
+            <div class="links">
+            <a href="ex22.html"><img src="assets/img/left.svg" alt=""></a><a href="ex24.html"><img src="assets/img/right.svg" alt=""></a>
+            </div>  
         </footer>
 
     </div>
