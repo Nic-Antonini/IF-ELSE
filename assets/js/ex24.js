@@ -4,7 +4,7 @@ function calculaDiaria(form){
     var days = parseInt(document.getElementById("days").value)
     var type = document.getElementById("type")
 
-    if(document.getElementById("type").value === "simples"){
+    if(document.getElementById("type").value === "Simples"){
         total = days * 100
     }
     else if(document.getElementById("type").value === "Médio"){
